@@ -19,7 +19,7 @@ const TaskCounter = () => {
 
     return (
         <div>
-            <p className={css.text}>Active: {count.active}</p>
+            <p className={css.text}>Current: {count.active}</p>
             <p className={css.text}>Completed: {count.completed}</p>
         </div>
     );
