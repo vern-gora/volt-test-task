@@ -10,16 +10,16 @@ const TaskCounter = () => {
             if (task.completed) {
                 acc.completed += 1;
             } else {
-                acc.active += 1;
+                acc.current += 1;
             }
             return acc;
         },
-        { active: 0, completed: 0 }
+        { current: 0, completed: 0 }
     );
 
     return (
         <div>
-            <p className={css.text}>Current: {count.active}</p>
+            <p className={css.text}>Current: {count.current}</p>
             <p className={css.text}>Completed: {count.completed}</p>
         </div>
     );
