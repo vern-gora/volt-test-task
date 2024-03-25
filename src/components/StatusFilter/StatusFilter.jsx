@@ -1,8 +1,8 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { setStatusFilter } from '../../redux/tasks/actions.js';
+import { setStatusFilter } from '../../redux/filtersSlice.js';
 import Button from '../Button/Button.jsx';
-import { statusFilters } from '../../redux/tasks/constants.js';
-import { getStatusFilter } from '../../redux/tasks/selectors.js';
+import { statusFilters } from '../../redux/constants.js';
+import { getStatusFilter } from '../../redux/selectors.js';
 import css from './StatusFilter.module.css';
 
 const StatusFilter = () => {
