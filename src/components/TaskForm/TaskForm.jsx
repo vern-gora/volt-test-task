@@ -4,6 +4,8 @@ import Button from '../Button/Button.jsx';
 import css from './TaskForm.module.css';
 
 const TaskForm = () => {
+    const N = 50;
+
     const dispatch = useDispatch();
 
     const handleSubmit = event => {
@@ -20,6 +22,7 @@ const TaskForm = () => {
                 type="text"
                 name="text"
                 placeholder="Enter task text..."
+                maxLength={N}
             />
             <Button type="submit">Add task</Button>
         </form>
