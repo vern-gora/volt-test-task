@@ -2,7 +2,7 @@
     "name": "volt",
     "private": true,
     "version": "0.0.0",
-    "homepage": "https://vern-gora.github.io/volt-to-do-list/",
+    "homepage": "https://vern-gora.github.io/volt-test-task/",
     "type": "module",
     "scripts": {
         "dev": "vite",
